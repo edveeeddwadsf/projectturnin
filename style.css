@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box; font-family: Didot;
+}
+body{
+	margin: 0; padding: 0;
+}
+.taskbar{
+	height:100px; background-color: #C5C5C5; width: 100%; display: flex; 
+	flex-direction: row; flex-grow: 1; justify-content: space-around; padding-top: 25px
+}
+.intro{
+	width:100%; height: 100%; background-image: url("img/background.png"); background-size: cover; 
+}
+.back{
+	 height: 100%;width: 100%
+}
+.tours{
+	display: flex; background-color: black; margin-left: 20px; margin-right: 30px;
+	color: #E6E6E6; margin-top: 30px; margin-bottom: 10px; font-size: 30px; justify-content: space-between;
+}
+h1{
+	font-size: 50px; opacity: 1.0;
+}
+ul{
+	list-style: none; margin-bottom: 27px; margin-left: 22px; font-family: PT Serif Caption;
+}
+ol{
+	margin-bottom: 25px; margin-left: 22px; font-family: PT Serif Caption;
+}
+h2{
+	padding-left: 30px; font-size: 36px;
+}
+#op{
+	opacity: 1.0;
+}
+.test{
+	 display: flex; justify-content: center; flex-wrap: wrap; flex-basis: 20px; align-items: center; 
+	 padding-left: 25%; padding-right: 25%; text-align: center; padding-top: 35%; margin-bottom: 15%; color: red; 
+}
+#box{
+	opacity: 0.5; background-color: black; width: 648px; height: 228px; 
+}
+.tpic{
+	width: 400px; height: 550px; display: flex; flex-direction: row;
+}
+.tours-text{
+	flex-direction: column; flex-direction: column;
+}
+.tours-img{
+	margin-right: 40px; margin-left: 29px; margin-top: 19px;margin-bottom: 15px; margin-top: 30px;
+}
+#time{
+	font-size: 24; margin-left: 22px; font-family: PT Serif Caption;
+}
+.albums{
+	display: flex; background-color: black; justify-content: flex-start; color: #E6E6E6; margin-left: 30px; margin-right: 30px;
+}
+#album-img{
+	width: 518px; height: 518px; margin-bottom: ; margin-right: ; margin-left: 22px; margin-top: 23px; margin-bottom: 10px;
+}
+#oya-img{
+	width: 349; height: 349; margin-bottom: ; margin-right: ; margin-left: 22px; margin-top: 23px; margin-bottom: 10px;
+}
+.album-text-oya{
+	display: flex; flex-direction: column; margin-left: 30px;  margin-bottom: 10px; font-size: 30px;
+}
+.album-text-bunga{
+	display: flex; flex-direction: column; margin-left: 30px;  margin-bottom: 10px; font-size: 30px;
+}
+.selector{
+	background-color: black; padding-top: 30px; padding-bottom: 22px; padding-right: 50px; padding-left: 50px; margin-right: 30px; margin-left: 30px;
+}
+#bunga-img{
+	width: 518px; height: 518px; margin-left: 22px; margin-top: 23px; margin-bottom: 10px;
+}
+.album-text-rouro{
+	display: flex; flex-direction: column; margin-left: 30px;  margin-bottom: 10px; font-size: 30px;
+}
+.album-text-offnum{
+	display: flex; flex-direction: column; margin-left: 30px;  margin-bottom: 10px; font-size: 30px;
+}
+.album-text-smile{
+	display: flex; flex-direction: column; margin-left: 30px;  margin-bottom: 10px; font-size: 30px;
+}
+.closing{
+	background-image: url(img/ghetto.png); background-size: cover; width: 100%; height: 600px; padding-top: 50px; 
+	align-content: center; margin-top: 10px; .
+}
+.closing-text{
+	display: flex; flex-direction: column; align-items: center; color: white; text-align: center;
+}
+.links{
+	align-items: center; margin-top: 14px;
+}
+h4{
+	font-size: 36px;
+}
+a{
+	text-decoration: none; color: black;
+}
+input{
+	width: 100%; padding: 12px 20px; margin: 8px 0;
+}
+#button{
+	background-color: white; color: black; padding-right: 30px; padding-left: 30px; border-radius: 4px;
+	 font-size: 10px; text-align: center; text-decoration: none; display: inline-block; margin-right: 
+}
+#button-text{
+	font-size: 16px; color: black;
+}
+.contact{
+	font-size: 36px;  
+}
+#button2{
+	background-color: white; color: black; padding-right: 30px; padding-left: 30px; border-radius: 4px;
+	 font-size: 10px; text-align: center; text-decoration: none; display: inline-block; margin-left: 650px; position: relative; 
+
+}
+.work{
+	opacity: 1.0;
+}
